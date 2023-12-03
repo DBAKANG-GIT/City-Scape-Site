@@ -1,4 +1,5 @@
-import logo from '../../assets/Images/Logo/Logo.png';
+import { faLetterboxd } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // Define the Navbar component
 function NavBar(props) {
@@ -8,19 +9,22 @@ function NavBar(props) {
       {/* // Navbar */}
       <nav
         id="navbar"
-        className="flex flex-col flex-wrap h-28 p-5 items-center lg:flex-row justify-between gap-8 lg:py-8 px-5 w-full lg:h-[70px] fixedbg-silver"
+        className="flex flex-col items-center flex-wrap h-28 p-5 bg-silver justify-between md:gap-8 md:py-8 w-full md:h-[70px]fixed md:flex-row"
       >
         {/* Logo */}
-        <h1 id="logo">
-          <img src={logo} alt="CityScape" className="h-20 w-auto" />
-        </h1>
         {/* Redirects */}
+        <h1 id="logo" className="text-4xl">
+          <span className="text-primary">
+            <FontAwesomeIcon icon={faLetterboxd} /> City
+          </span>
+          Scape
+        </h1>
         <ul className="flex">
           {props.navItems.map((navItem, index) => (
             <li key={index}>
               <a
                 href={navItem.url}
-                className="py-2 px-5 my-0 mx-1 hover:border-b-2 hover:border-[#A26028] hover:border-solid"
+                className="p-[10px] mx-1 lg:py-2 lg:px-5 lg:my-0 lg:mx-1 hover:border-b-2 hover:border-[#A26028] hover:border-solid"
               >
                 {navItem.name}
               </a>

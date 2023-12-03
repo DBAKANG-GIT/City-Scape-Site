@@ -8,6 +8,7 @@ export default {
         secondary: '#DBC4B4',
         coral: '#FF7F50',
         silver: '#f5f5f5',
+        backdrop: 'rgba(0, 0, 0, 0.5)',
       },
     },
   },
