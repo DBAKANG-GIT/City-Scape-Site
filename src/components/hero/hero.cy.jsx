@@ -8,14 +8,33 @@ describe('Hero component', () => {
   // Test case for rendering the Hero component
   it('should render the Hero component', () => {
     // Render the Hero component with the mock data
+    cy.viewport('iphone-6');
     cy.mount(<Hero />);
 
-    // Assert that the text "The Sky is The Limit" is displayed on the hero
-    cy.contains('The Sky is The Limit').should('be.visible');
+    cy.contains('Welcome To CityScape').should('be.visible');
 
-    // Assert that the text "We provide world class financial assistance" is displayed on the hero
-    cy.contains('We provide world class financial assistance').should(
-      'be.visible'
-    );
+    cy.contains('Read More').should('be.visible');
+  });
+
+  // Test case for rendering the Hero component on tablet screen size
+  it('should render the Hero component on tablet screen size', () => {
+    // Render the Hero component with the mock data
+    cy.viewport('ipad-2');
+    cy.mount(<Hero />);
+
+    cy.contains('Welcome To CityScape').should('be.visible');
+
+    cy.contains('Read More').should('be.visible');
+  });
+
+  // Test case for rendering the Hero component on desktop screen size
+  it('should render the Hero component on desktop screen size', () => {
+    // Render the Hero component with the mock data
+    cy.viewport(1920, 1080);
+    cy.mount(<Hero />);
+
+    cy.contains('Welcome To CityScape').should('be.visible');
+
+    cy.contains('Read More').should('be.visible');
   });
 });

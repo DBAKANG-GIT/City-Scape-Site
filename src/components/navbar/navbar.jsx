@@ -9,12 +9,12 @@ function NavBar(props) {
       {/* // Navbar */}
       <nav
         id="navbar"
-        className="flex flex-col items-center flex-wrap h-28 p-5 bg-silver justify-between md:gap-8 md:py-8 w-full md:h-[70px]fixed md:flex-row"
+        className="flex flex-col items-center flex-wrap sm:h-28 sm:p-5 bg-silver justify-between md:gap-8 md:py-8 w-screen md:h-[70px]fixed md:flex-row"
       >
         {/* Logo */}
         {/* Redirects */}
         <h1 id="logo" className="text-4xl">
-          <span className="text-primary">
+          <span className="text-secondary">
             <FontAwesomeIcon icon={faLetterboxd} /> City
           </span>
           Scape

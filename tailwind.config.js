@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         primary: '#28A745',
-        secondary: '#DBC4B4',
+        secondary: '#A26028',
         coral: '#FF7F50',
         silver: '#f5f5f5',
-        backdrop: 'rgba(0, 0, 0, 0.5)',
+        backdrop: 'rgba(0, 0, 0, 0.7)',
       },
     },
   },
