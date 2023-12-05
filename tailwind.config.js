@@ -9,6 +9,7 @@ export default {
         coral: '#FF7F50',
         silver: '#f5f5f5',
         backdrop: 'rgba(0, 0, 0, 0.7)',
+        grey: '#333',
       },
     },
   },
