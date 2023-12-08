@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import IconsSection from '../../components/icons-section/icon-section';
+import SolutionsSection from '../../components/solutions-section/solutions-section';
 
 const AboutPage = () => {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>Welcome to the About Page of CityScape App!</p>
+      <SolutionsSection />
+      <IconsSection />
     </div>
   );
 };
