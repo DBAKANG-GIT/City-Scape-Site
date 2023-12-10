@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const ColumnWithContent = ({ title, subTitle, content, btnText }) => {
   return (
@@ -17,6 +17,13 @@ const ColumnWithContent = ({ title, subTitle, content, btnText }) => {
       </div>
     </div>
   );
+};
+
+ColumnWithContent.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  btnText: PropTypes.string.isRequired,
 };
 
 export default ColumnWithContent;

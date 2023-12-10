@@ -1,4 +1,3 @@
-import React from 'react';
 import ColumnWithImage from '../../atoms/columns/column-with-image';
 import ColumnWithContent from '../../atoms/columns/column-with-content';
 import businessImage from '../../assets/Images/About/business.jpg';

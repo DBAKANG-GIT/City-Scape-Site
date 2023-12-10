@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroImage from '../../assets/Images/Hero/Skyscape-Backdrop.jpg';
 import Overlay from '../../atoms/overlay/overlay';
 import Content from '../../atoms/heroContent/hero-content';

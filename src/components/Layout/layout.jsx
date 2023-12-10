@@ -1,6 +1,6 @@
 // src/components/Layout.js
-import React from 'react';
 import Navbar from '../Navbar/navbar';
+import PropTypes from 'prop-types';
 
 const Layout = ({ children }) => {
   return (
@@ -19,6 +19,10 @@ const Layout = ({ children }) => {
       {/* Additional layout elements go here */}
     </div>
   );
+};
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

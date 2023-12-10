@@ -1,4 +1,5 @@
 import logo from 'src/assets/Images/Logo/logo.svg';
+import PropTypes from 'prop-types'; // ES6
 
 // Define the Navbar component
 function NavBar(props) {
@@ -35,6 +36,15 @@ function NavBar(props) {
     </div>
   );
 }
+
+NavBar.propTypes = {
+  navItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      url: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 // Export the Navbar class as the default export
 export default NavBar;

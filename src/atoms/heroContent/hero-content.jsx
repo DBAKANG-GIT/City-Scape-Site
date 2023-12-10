@@ -1,10 +1,5 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAlipay } from '@fortawesome/free-brands-svg-icons';
-import {
-  faCaretRight,
-  faChevronRight,
-} from '@fortawesome/free-solid-svg-icons';
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 const Content = () => {
   return (

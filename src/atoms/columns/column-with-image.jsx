@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const ColumnWithImage = ({ imageUrl, altText }) => {
   return (
@@ -8,6 +8,11 @@ const ColumnWithImage = ({ imageUrl, altText }) => {
       </div>
     </div>
   );
+};
+
+ColumnWithImage.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired,
 };
 
 export default ColumnWithImage;
