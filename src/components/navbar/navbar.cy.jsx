@@ -1,5 +1,5 @@
 // import { mount } from '@cypress/react';
-import NavBar from './navbar';
+import NavBar from '../Navbar/navbar';
 import { mount } from 'cypress/react18';
 
 describe('NavBar', () => {
