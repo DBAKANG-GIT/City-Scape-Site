@@ -18,9 +18,9 @@ export default defineConfig({
     }),
   ],
   resolve: {
-    alias: {
-      src: '/src',
-    },
+    // alias: {
+    //   src: '/src',
+    // },
   },
   server: {
     port: 3000, // specify your desired port here
