@@ -1,4 +1,3 @@
-// src/components/Layout.js
 import Navbar from '../navbar/navbar';
 import PropTypes from 'prop-types';
 
