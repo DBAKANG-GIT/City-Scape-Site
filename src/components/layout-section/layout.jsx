@@ -1,4 +1,4 @@
-import Navbar from '../navbar/navbar';
+import Navbar from '../navbar-section/navbar';
 import PropTypes from 'prop-types';
 
 const Layout = ({ children }) => {

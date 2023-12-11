@@ -1,5 +1,5 @@
 // Import any necessary modules or components here
-import Hero from '../../components/hero/hero';
+import Hero from '../../components/hero-section/hero';
 
 // Define your landing page component
 function LandingPage() {
