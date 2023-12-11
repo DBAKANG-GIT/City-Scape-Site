@@ -1,11 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/landing-page/landing-page';
-import AboutPage from './pages/about-page/about-page';
-import ContactPage from './pages/contact-page/contact-page';
-import ServicesPage from './pages/services-page/services-page';
-import WorkPage from './pages/work-page/work-page';
-import './App.css';
-import Layout from '../src/components/layout/layout';
+import LandingPage from './pages/landing-page/landing-.jsx';
+import AboutPage from './pages/about-page/about-page.jsx';
+import ContactPage from './pages/contact-page/contact-page.jsx';
+import ServicesPage from './pages/services-page/services-page.jsx';
+import WorkPage from './pages/work-page/work-page.jsx';
+import Layout from '../src/components/layout/layout.jsx';
 
 function App() {
   return (
