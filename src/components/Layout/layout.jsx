@@ -1,5 +1,5 @@
 // src/components/Layout.js
-import Navbar from '../Navbar/navbar';
+import Navbar from '../navbar/navbar';
 import PropTypes from 'prop-types';
 
 const Layout = ({ children }) => {

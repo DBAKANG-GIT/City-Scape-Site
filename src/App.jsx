@@ -5,7 +5,7 @@ import ContactPage from './pages/contact-page/contact-page';
 import ServicesPage from './pages/services-page/services-page';
 import WorkPage from './pages/work-page/work-page';
 import './App.css';
-import Layout from './components/Layout/layout';
+import Layout from './components/layout/layout';
 
 function App() {
   return (
