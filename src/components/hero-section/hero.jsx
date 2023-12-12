@@ -1,4 +1,4 @@
-import HeroImage from '../../assets/Images/Hero/Skyscape-Backdrop.jpg';
+import HeroImage from '../../assets/image/hero/skyscape-backdrop.jpg';
 import Overlay from '../../atoms/overlay/overlay';
 import Content from '../../atoms/heroContent/hero-content';
 
