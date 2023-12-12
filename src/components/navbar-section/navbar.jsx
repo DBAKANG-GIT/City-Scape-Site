@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo/logo.svg';
+import logo from '../../assets/image/logo/logo.svg';
 import PropTypes from 'prop-types'; // ES6
 
 // Define the Navbar component
