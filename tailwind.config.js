@@ -10,6 +10,7 @@ export default {
         silver: '#f5f5f5',
         backdrop: 'rgba(0, 0, 0, 0.7)',
         grey: '#333',
+        lightGrey: '#f4f4f4',
       },
     },
   },

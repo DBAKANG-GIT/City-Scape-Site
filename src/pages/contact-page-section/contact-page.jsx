@@ -1,10 +1,13 @@
-const ContactPage = () => {
+import ContactColumn from 'src/components/contact-column/contact-column';
+
+const ContactSection = () => {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>Welcome to the Contact Page of CityScape App!</p>
-    </div>
+    <section id="contact" className="solutions flex-columns">
+      <div id="row" className="flex flex-wrap w-full flex-row">
+        <ContactColumn />
+      </div>
+    </section>
   );
 };
 
-export default ContactPage;
+export default ContactSection;

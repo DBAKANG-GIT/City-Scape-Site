@@ -3,7 +3,6 @@ import LandingPage from './pages/landing-page-section/landing-page.jsx';
 import AboutPage from './pages/about-page-section/about-page.jsx';
 import ContactPage from './pages/contact-page-section/contact-page.jsx';
 import ServicesPage from './pages/services-page-section/services-page.jsx';
-import WorkPage from './pages/work-page-section/work-page.jsx';
 import Layout from './components/layout-section/layout.jsx';
 
 function App() {
@@ -33,15 +32,6 @@ function App() {
           element={
             <Layout>
               <ServicesPage />
-            </Layout>
-          }
-        ></Route>
-
-        <Route
-          path="/work"
-          element={
-            <Layout>
-              <WorkPage />
             </Layout>
           }
         ></Route>

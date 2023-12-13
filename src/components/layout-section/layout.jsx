@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
           { name: 'Home', url: '/' },
           { name: 'About', url: '/about' },
           { name: 'Services', url: '/services' },
-          { name: 'Work', url: '/work' },
           { name: 'Contact', url: '/contact' },
         ]}
       />
