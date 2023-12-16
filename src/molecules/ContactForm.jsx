@@ -1,3 +1,6 @@
+import Button from 'src/atoms/buttons/button';
+import InputField from 'src/atoms/inputField/input-field';
+
 const ContactForm = () => {
   return (
     <form
@@ -6,34 +9,19 @@ const ContactForm = () => {
       method="POST"
       name="callback-form"
     >
-      <label htmlFor="name">Name</label>
-      <input
-        className="w-full p-1 h-10 border border-f5f5f5 mb-1"
+      <InputField type="text" id="name" placeholder="Name" />
+      <InputField type="email" id="email" placeholder="Email Address" />
+      <InputField type="text" id="subject" placeholder="Subject" />
+      <InputField type="tel" id="phone" placeholder="Phone Number" />
+
+      <textarea
+        className="w-full h-36 border border-black py-2 px-4 mb-4"
         type="text"
-        id="name"
-        placeholder="Enter name"
+        id="message"
+        placeholder="Enter Message"
         required
       />
-
-      <label htmlFor="email">Email</label>
-      <input
-        className="w-full p-1 h-10 border border-f5f5f5 mb-1"
-        type="email"
-        id="email"
-        placeholder="Enter email"
-        required
-      />
-
-      <label htmlFor="phone">Phone</label>
-      <input
-        className="w-full p-1 h-10 border border-f5f5f5 mb-1"
-        type="tel"
-        id="phone"
-        placeholder="Enter phone"
-        required
-      />
-
-      <input type="submit" value="Send" className="btn"></input>
+      <Button />
     </form>
   );
 };
