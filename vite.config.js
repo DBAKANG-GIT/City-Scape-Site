@@ -23,6 +23,7 @@ export default defineConfig({
     },
   },
   server: {
+    host: true,
     port: 3000, // specify your desired port here
   },
 });

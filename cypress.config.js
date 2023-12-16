@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 import { defineConfig } from 'cypress';
+import coverageTask from '@cypress/code-coverage/task.js';
 
 export default defineConfig({
   env: {
@@ -10,7 +11,8 @@ export default defineConfig({
   e2e: {
     baseUrl: 'http://localhost:3000',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      coverageTask(on, config);
+      return config;
     },
   },
   component: {
@@ -19,7 +21,7 @@ export default defineConfig({
       bundler: 'vite',
     },
     setupNodeEvents(on, config) {
-      require('@cypress/code-coverage/task')(on, config);
+      coverageTask(on, config);
       return config;
     },
   },
