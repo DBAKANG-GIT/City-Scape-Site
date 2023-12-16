@@ -36,7 +36,7 @@ const ContactSection = () => {
         <div id="container" className="m-auto max-w-7xl overflow-hidden px-6">
           <div id="contact" className="solutions flex-columns">
             <h1 className="pb-2 text-center text-3xl font-thin uppercase">
-              Contact Me
+              Contact Us
             </h1>
             <BottomLine />
             <p id="lead" className="">
