@@ -16,7 +16,7 @@ const contactItems = [
     content: 'test@gmail.com',
   },
   {
-    href: '+44 (0) 123456789',
+    href: 'tel:+44(0)123456789',
     icon: <FontAwesomeIcon icon={faPhone} size="2x" />,
     title: 'Phone',
     content: '+44 (0) 123456789',
@@ -43,7 +43,7 @@ const ContactSection = () => {
               Here is how you can reach us
             </p>
             <div id="row" className="flex flex-wrap w-full flex-row">
-              <ContactForm />
+              <ContactForm enableRecaptcha={true} />
             </div>
           </div>
         </div>
