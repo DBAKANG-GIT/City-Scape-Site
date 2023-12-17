@@ -2,11 +2,7 @@ import BottomLine from 'src/atoms/bottomLine/bottom-line';
 import ContactItem from 'src/atoms/contact/contact-item';
 import ContactForm from 'src/molecules/ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faEnvelope,
-  faPhone,
-  faAddressCard,
-} from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
 const contactItems = [
   {
@@ -16,16 +12,14 @@ const contactItems = [
     content: 'test@gmail.com',
   },
   {
-    href: 'tel:+44(0)123456789',
-    icon: <FontAwesomeIcon icon={faPhone} size="2x" />,
-    title: 'Phone',
-    content: '+44 (0) 123456789',
-  },
-  {
     href: 'https://www.google.com/maps?q=London',
     icon: <FontAwesomeIcon icon={faAddressCard} size="2x" />,
     title: 'Address',
-    content: 'London, United Kingdom',
+    content: `London (City) Office
+    63/66 Hatton Garden
+    Fifth Floor, Suite 23
+    London
+    EC1N 8LE`,
   },
 ];
 
@@ -51,7 +45,7 @@ const ContactSection = () => {
 
       <section id="contact-b" className="text-center py-12 bg-black">
         <div id="container" className="m-auto max-w-7xl overflow-hidden px-6">
-          <div id="contact-items" className="grid grid-cols-3 text-center">
+          <div id="contact-items" className="grid grid-cols-2 text-center">
             {contactItems.map((item, index) => (
               <ContactItem
                 key={index}

@@ -7,6 +7,7 @@ const ContactForm = (enableRecaptcha) => {
     <form
       className="w-full py-5"
       data-netlify-recaptcha="true"
+      data-netlify="true"
       method="POST"
       name="callback-form"
     >
