@@ -12,6 +12,7 @@ const ContactForm = (enableRecaptcha) => {
       name="callback-form"
     >
       <input type="hidden" name="form-name" value="callback-form" />
+      <InputField type="text" id="name" name="name" placeholder="Name" />
 
       <InputField
         type="email"
