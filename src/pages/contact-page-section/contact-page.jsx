@@ -12,14 +12,11 @@ const contactItems = [
     content: 'test@gmail.com',
   },
   {
-    href: 'https://www.google.com/maps?q=London',
+    href: 'https://maps.app.goo.gl/Du6stTteNNENZQ6c6',
     icon: <FontAwesomeIcon icon={faAddressCard} size="2x" />,
     title: 'Address',
-    content: `London (City) Office
-    63/66 Hatton Garden
-    Fifth Floor, Suite 23
-    London
-    EC1N 8LE`,
+    content: `London (City) Office 63/66 Hatton Garden
+    Fifth Floor, Suite 23 London EC1N 8LE`,
   },
 ];
 

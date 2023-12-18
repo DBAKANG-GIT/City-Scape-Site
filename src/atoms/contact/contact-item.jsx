@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 
 const ContactItem = ({ href, icon, title, children, color }) => (
   <div>
-    <a href={href} style={{ color }}>
+    <a href={href} style={{ color }} target="_blank" rel="noopener noreferrer">
       {icon}
       <h3 style={{ color }}>{title}</h3>
-      <p style={{ color }}>{children}</p>
+      <p style={{ color, whiteSpace: 'pre-wrap' }}>{children}</p>
     </a>
   </div>
 );
