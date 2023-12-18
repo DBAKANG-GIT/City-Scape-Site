@@ -11,15 +11,31 @@ const ContactForm = (enableRecaptcha) => {
       method="POST"
       name="callback-form"
     >
-      <InputField type="text" id="name" placeholder="Name" />
-      <InputField type="email" id="email" placeholder="Email Address" />
-      <InputField type="text" id="subject" placeholder="Subject" />
-      <InputField type="tel" id="phone" placeholder="Phone Number" />
+      <InputField type="text" id="name" name="name" placeholder="Name" />
+      <InputField
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Email Address"
+      />
+      <InputField
+        type="text"
+        id="subject"
+        name="subject"
+        placeholder="Subject"
+      />
+      <InputField
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Phone Number"
+      />
 
       <textarea
         className="w-full h-36 border border-black py-2 px-4 mb-4"
         type="text"
         id="message"
+        name="message"
         placeholder="Enter Message"
         required
       />
