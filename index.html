@@ -8,34 +8,23 @@
   </head>
   <body>
     <!-- A little help for the Netlify bots if you're not using a SSG -->
-    <!-- A little help for the Netlify post-processing bots -->
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
+    <form name="callback-form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" id="name" placeholder="Name" /><input
+        type="email"
+        id="email"
+        placeholder="Email Address"
+      /><input type="text" id="subject" placeholder="Subject" /><input
+        type="tel"
+        id="phone"
+        placeholder="Phone Number"
+      /><textarea
+        type="text"
+        id="message"
+        placeholder="Enter Message"
+      ></textarea>
     </form>
 
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx">
-
-      ReactDOM.render(
-              <form name="contact" method="post">
-                <input type="hidden" name="form-name" value="contact" />
-                <p>
-                  <label>Your Name: <input type="text" name="name"/></label>
-                </p>
-                <p>
-                  <label>Your Email: <input type="email" name="email"/></label>
-                </p>
-                <p>
-                  <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
-              </form>,
-              document.getElementById("root")
-            );
-    </script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
