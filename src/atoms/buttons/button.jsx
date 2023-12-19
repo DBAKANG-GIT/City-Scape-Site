@@ -15,7 +15,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   value: 'Submit',
-  type: 'button',
+  type: 'submit',
 };
 
 export default Button;
