@@ -1,7 +1,8 @@
 import Button from 'src/atoms/buttons/button';
 import InputField from 'src/atoms/inputField/input-field';
+import Recaptcha from 'src/atoms/recaptcha/recaptcha-netlify';
 
-const ContactForm = () => {
+const ContactForm = (enableRecaptcha) => {
   return (
     <form className="w-full py-5" action="/" method="post" name="callback-form">
       <input type="hidden" name="form-name" value="callback-form" />
@@ -33,6 +34,9 @@ const ContactForm = () => {
         placeholder="Enter Message"
         required={true}
       ></textarea>
+
+      {enableRecaptcha ? <Recaptcha /> : null}
+
       <Button />
     </form>
   );
