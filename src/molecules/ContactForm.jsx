@@ -1,5 +1,5 @@
 import Button from 'src/atoms/buttons/button';
-// import InputField from 'src/atoms/inputField/input-field';
+import InputField from 'src/atoms/inputField/input-field';
 
 const ContactForm = () => {
   return (
