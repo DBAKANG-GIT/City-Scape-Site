@@ -9,28 +9,17 @@
   <body>
     <!-- A little help for the Netlify bots if you're not using a SSG -->
     <form name="callback-form" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" id="name" name="name" placeholder="Name" />
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Email Address"
-      /><input
-        type="text"
-        name="subject"
-        id="subject"
-        placeholder="Subject"
-      /><input
-        type="tel"
-        id="phone"
-        name="phone"
-        placeholder="Phone Number"
-      /><textarea
+      <input type="text" id="name" name="name" />
+      <input type="email" id="email" name="email" />
+      <input type="text" id="subject" name="subject" />
+      <input type="tel" id="phone" name="phone" />
+
+      <textarea
+        className="w-full h-36 border border-black py-2 px-4 mb-4"
         type="text"
         id="message"
         name="message"
-        placeholder="Enter Message"
-      ></textarea>
+      />
     </form>
 
     <div id="root"></div>

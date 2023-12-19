@@ -4,7 +4,12 @@ import Recaptcha from 'src/atoms/recaptcha/recaptcha-netlify';
 
 const ContactForm = (enableRecaptcha) => {
   return (
-    <form className="w-full py-5" method="post" name="callback-form">
+    <form
+      className="w-full py-5"
+      action="/contact"
+      method="post"
+      name="callback-form"
+    >
       <input type="hidden" name="form-name" value="callback-form" />
       <InputField type="text" id="name" name="name" placeholder="Name" />
 
