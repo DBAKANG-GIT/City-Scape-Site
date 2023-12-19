@@ -16,6 +16,7 @@ InputField.propTypes = {
   id: PropTypes.string,
   placeholder: PropTypes.string,
   name: PropTypes.string.isRequired,
+  required: PropTypes.bool.isRequired,
 };
 
 // Export the InputField class as the default export
