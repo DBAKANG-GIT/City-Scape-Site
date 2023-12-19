@@ -6,9 +6,14 @@ const ContactForm = () => {
     <form className="w-full py-5" action="/" method="post" name="callback-form">
       <input type="hidden" name="form-name" value="callback-form" />
 
-      <InputField type="text" name="name" placeholder="Name" />
-      <InputField type="email" name="email" placeholder="Email Address" />
-      <InputField type="text" name="subject" placeholder="Subject" />
+      <InputField type="text" name="name" placeholder="Name" required />
+      <InputField
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required
+      />
+      <InputField type="text" name="subject" placeholder="Subject" required />
       <InputField type="tel" name="phone" placeholder="Phone Number" />
 
       <textarea
