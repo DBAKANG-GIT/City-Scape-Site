@@ -38,7 +38,7 @@ const ContactForm = (enableRecaptcha) => {
         id="message"
         name="message"
         placeholder="Enter Message"
-      />
+      ></textarea>
       {enableRecaptcha ? <Recaptcha /> : null}
       <Button />
     </form>
