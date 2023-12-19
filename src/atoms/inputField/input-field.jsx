@@ -7,7 +7,7 @@ const InputField = ({ type, id, name, placeholder, required }) => (
     id={id}
     name={name}
     placeholder={placeholder}
-    required={required}
+    {...(required ? { required } : {})}
   />
 );
 
