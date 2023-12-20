@@ -1,3 +1,4 @@
+import Footer from '../footer-section/footer';
 import Navbar from '../navbar-section/navbar';
 import PropTypes from 'prop-types';
 
@@ -13,7 +14,7 @@ const Layout = ({ children }) => {
         ]}
       />
       <main>{children}</main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       {/* Additional layout elements go here */}
     </div>
   );

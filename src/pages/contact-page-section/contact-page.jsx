@@ -1,6 +1,6 @@
 import BottomLine from 'src/atoms/bottomLine/bottom-line';
 import ContactItem from 'src/atoms/contact/contact-item';
-import ContactForm from 'src/molecules/ContactForm';
+import ContactForm from 'src/molecules/contact-form/contactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
