@@ -45,15 +45,6 @@ function App() {
             </Layout>
           }
         ></Route>
-
-        <Route
-          path="/success"
-          element={
-            <Layout>
-              <SuccessPage />
-            </Layout>
-          }
-        ></Route>
       </Routes>
     </BrowserRouter>
   );
