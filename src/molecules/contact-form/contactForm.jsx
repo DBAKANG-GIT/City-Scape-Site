@@ -1,6 +1,6 @@
-import Button from '../../src/atoms/buttons/button';
-import InputField from '../../src/atoms/inputField/input-field';
-import Recaptcha from '../../src/atoms/recaptcha/recaptcha-netlify';
+import Button from '../../atoms/buttons/button';
+import InputField from '../../atoms/inputField/input-field';
+import Recaptcha from '../../atoms/recaptcha/recaptcha-netlify';
 
 const ContactForm = (enableRecaptcha) => {
   return (

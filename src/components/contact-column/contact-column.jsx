@@ -1,5 +1,5 @@
 import ContactImage from 'src/atoms/contact/contact-image';
-import ContactForm from 'src/molecules/ContactForm';
+import ContactForm from 'src/molecules/contact-form/contactForm';
 
 const ContactColumn = () => {
   return (
