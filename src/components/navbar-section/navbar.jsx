@@ -5,11 +5,11 @@ import PropTypes from 'prop-types'; // ES6
 function NavBar(props) {
   return (
     <div className="w-screen ">
-      {/* <div className="bg-primary h-12 w-screen sm:bg-yellow-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-secondary"></div> */}
+      <div className="bg-primary h-12 w-screen sm:bg-yellow-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-secondary"></div>
       {/* // Navbar */}
       <nav
         id="navbar"
-        className="flex w-full flex-col items-center flex-wrap sm:h-52 sm:p-5 bg-silver justify-between md:gap-8 md:py-8 md:h-[70px]fixed md:flex-row overflow-hidden relative border-b-4 border-secondary"
+        className="flex w-full flex-col items-center flex-wrap h-40 p-5 bg-silver justify-between md:gap-8 md:py-8 md:h-32  md:flex-row overflow-hidden relative border-b-4 border-secondary"
       >
         {/* Logo */}
         {/* Redirects */}
