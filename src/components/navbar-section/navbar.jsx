@@ -1,5 +1,6 @@
 import logo from '../../assets/image/logo/logo.svg';
 import PropTypes from 'prop-types'; // ES6
+import { NavLink } from 'react-router-dom';
 
 // Define the Navbar component
 function NavBar(props) {
@@ -21,14 +22,14 @@ function NavBar(props) {
         <ul className="flex">
           {props.navItems.map((navItem, index) => (
             <li key={index}>
-              <a
-                href={navItem.url}
+              <NavLink
+                to={navItem.url}
                 className={`p-[10px] mx-1 lg:py-2 lg:px-5 lg:my-0 lg:mx-1 hover:border-b-2 hover:border-[#785230] hover:border-solid ${
                   navItem.name === 'Home' ? 'hidden sm:inline' : ''
                 }`}
               >
                 {navItem.name}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>
