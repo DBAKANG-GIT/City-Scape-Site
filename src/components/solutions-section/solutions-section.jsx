@@ -1,22 +1,21 @@
-import ColumnWithImage from '../../atoms/columns/column-with-image';
 import ColumnWithContent from '../../atoms/columns/column-with-content';
-import businessImage from '../../assets/image/about/business.jpg';
 
 const SolutionsSection = () => {
   return (
     <section className="solutions">
       <div className="flex flex-wrap w-full flex-row">
-        <ColumnWithImage
-          imageUrl={businessImage}
-          altText="People standing in a business"
-        />
         <ColumnWithContent
-          title="What are you looking for"
-          subTitle="We provide bespoke solutions"
-          content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aspernatur, vero eos officia hic saepe delectus temporibus voluptates, culpa odio, ipsam nam sequi maiores blanditiis dolore officiis dignissimos sed expedita."
+          title="About us"
+          subTitle="Empowering Lives Through Holistic Wellness"
+          content="At Cityscape Health and Wellbeing, we are dedicated to enhancing the vitality and resilience of individuals and corporations alike. Our bespoke wellness programs seamlessly blend on-site personal training with invigorating corporate classes such as yoga and pilates, fostering a culture of health and balance in both personal and professional realms."
           btnText="Read More"
         />
       </div>
+      <h1>Our Vision</h1>
+      <p>
+        To create a healthier, more vibrant community by making wellness
+        accessible, enjoyable, and an integral part of everyday life.
+      </p>
     </section>
   );
 };

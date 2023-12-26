@@ -32,3 +32,6 @@ coverage/
 #Nyc Output
 .nyc_output/
 .nycrc.json
+
+#Cypress
+cypress/screenshots
