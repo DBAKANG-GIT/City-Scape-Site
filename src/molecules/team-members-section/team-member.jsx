@@ -1,7 +1,7 @@
 // TeamMembers.js
 import TeamMember from 'src/atoms/teamMember/team-member';
 import divineImage from 'src/assets/image/about/team/divine.jpg';
-import kamalImage from 'src/assets/image/about/team/Kamal.jpg';
+import kamalImage from 'src/assets/image/about/team/kamal.jpg';
 const TeamMembers = () => {
   return (
     <div className="flex text-center justify-center h-[20rem]">
