@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <header
-        className="bg-no-repeat bg-center bg-cover h-screen relative text-white w-screen"
+        className="bg-no-repeat bg-center bg-cover h-screen relative text-white w-screen bg-divineImage"
         style={{ backgroundImage: `url(${HeroImage})` }}
       >
         <Overlay />

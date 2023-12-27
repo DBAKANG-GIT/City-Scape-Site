@@ -5,6 +5,7 @@ import IconsSection from '../../components/icons-section/icon-section';
 import rectangle from 'src/assets/image/about/Rectangle.svg';
 import curveImage from 'src/assets/image/about/Rectangle-with-people.png';
 import TextWithBackgroundImage from 'src/atoms/text-with-background-image/TextWithBackgroundImage';
+import TeamSection from 'src/components/team-bio-section/team-section';
 
 const AboutPage = () => {
   return (
@@ -16,6 +17,10 @@ const AboutPage = () => {
       <BottomLine />
       {/* <SolutionsSection /> */}
       <IconsSection />
+      <TextHolder text1="Meet" text2="Our Team" />
+      <BottomLine />
+
+      <TeamSection />
     </div>
   );
 };
