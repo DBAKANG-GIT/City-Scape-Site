@@ -3,6 +3,7 @@ import ContactItem from 'src/atoms/contact/contact-item';
 import ContactForm from 'src/molecules/contact-form/contactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import TextHolder from 'src/molecules/text-with-bottom-line/text-holder';
 
 const contactItems = [
   {
@@ -26,13 +27,14 @@ const ContactSection = () => {
       <section id="contact-a" className="text-center py-12">
         <div id="container" className="m-auto max-w-7xl overflow-hidden px-6">
           <div id="contact" className="solutions flex-columns">
-            <h1 className="pb-2 text-center text-3xl font-thin uppercase">
-              Contact Us
-            </h1>
+            <div className="mb-4">
+              <TextHolder
+                text1="Contact Us"
+                text2="Here is our how you can reach us"
+              />
+            </div>
+
             <BottomLine />
-            <p id="lead" className="">
-              Here is how you can reach us
-            </p>
             <div id="row" className="flex flex-wrap w-full flex-row">
               <ContactForm enableRecaptcha={false} />
             </div>

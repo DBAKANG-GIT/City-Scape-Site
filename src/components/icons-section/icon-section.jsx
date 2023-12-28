@@ -9,7 +9,10 @@ import {
 
 const IconsSection = () => {
   return (
-    <section id="about" className="p-7 bg-white text-grey">
+    <section
+      id="about"
+      className="p-7 shadow-md bg-gray-100 border-secondary border-2 text-grey"
+    >
       <div className="flex flex-col lg:flex-row text-center justify-center h-full">
         <div className="p-5">
           <FontAwesomeIcon
