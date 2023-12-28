@@ -11,7 +11,7 @@ import TeamSection from 'src/components/team-bio-section/team-section';
 
 const AboutPage = () => {
   return (
-    <div className="flex w-full py-5 flex-col items-center gap-8 min-h-screen bg-gray-100 ">
+    <div className="flex w-full py-5 flex-col items-center gap-8 min-h-screen bg-white ">
       <TextHolder text1="Empowering Lives" text2="Through Holistic Wellness" />
       <BottomLine />
       <TextWithBackgroundImage
@@ -23,7 +23,7 @@ const AboutPage = () => {
       <TextHolder text1="Why Choose" text2="Cityscape Health and Wellbeing" />
       <BottomLine />
       {/* <SolutionsSection /> */}
-      <div className="mb-8 bg-white rounded-lg shadow-md p-6">
+      <div className="mb-8 rounded-lg  p-6">
         <IconsSection />
       </div>
       <TextHolder text1="Meet" text2="Our Team" />

@@ -3,7 +3,7 @@ import TextHolder from 'src/molecules/text-with-bottom-line/text-holder';
 
 const ServicesPage = () => {
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-white min-h-screen">
       <TextHolder text1="Welcome to the" text2="Services Page of CityScape" />
       <BottomLine />
 
@@ -11,7 +11,7 @@ const ServicesPage = () => {
         These are the services we offer{' '}
       </p>
 
-      <div className="mb-8 bg-white rounded-lg shadow-md p-6">
+      <div className="mb-8 bg-gray-100 border-secondary border-2 rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-semibold mb-2 text-secondary">
           On-Site Personal Training:
         </h2>
@@ -26,7 +26,7 @@ const ServicesPage = () => {
         </ul>
       </div>
 
-      <div className="bg-white rounded-lg shadow-md p-6">
+      <div className="bg-gray-100 border-secondary border-2 rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-semibold mb-2 text-secondary">
           Corporate Classes:
         </h2>
