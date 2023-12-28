@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 function NavBar(props) {
   return (
     <div className="w-screen ">
-      <div className="bg-primary h-12 w-screen sm:bg-yellow-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-secondary"></div>
+      {/* <div className="bg-primary h-12 w-screen sm:bg-yellow-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-secondary"></div> */}
       <nav
         id="navbar"
         className="flex w-full flex-col items-center flex-wrap h-44 p-5 bg-silver justify-between md:gap-8 md:py-8 md:h-32  md:flex-row overflow-hidden relative border-b-4 border-secondary"

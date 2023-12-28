@@ -42,7 +42,10 @@ const ContactSection = () => {
 
       <section id="contact-b" className="text-center py-12 bg-black">
         <div id="container" className="m-auto max-w-7xl overflow-hidden px-6">
-          <div id="contact-items" className="grid grid-cols-2 text-center">
+          <div
+            id="contact-items"
+            className="grid sm:grid-cols-2 gap-5 text-center"
+          >
             {contactItems.map((item, index) => (
               <ContactItem
                 key={index}

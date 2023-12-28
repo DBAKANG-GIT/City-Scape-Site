@@ -1,6 +1,5 @@
-// hero.test.js
-
 // Import the Hero component
+import { BrowserRouter } from 'react-router-dom';
 import Hero from './hero';
 
 // Test suite for the Hero component
@@ -9,7 +8,11 @@ describe('Hero component', () => {
   it('should render the Hero component', () => {
     // Render the Hero component with the mock data
     cy.viewport('iphone-6');
-    cy.mount(<Hero />);
+    cy.mount(
+      <BrowserRouter>
+        <Hero />
+      </BrowserRouter>
+    );
 
     cy.contains('Welcome To CityScape').should('be.visible');
 
@@ -20,8 +23,11 @@ describe('Hero component', () => {
   it('should render the Hero component on tablet screen size', () => {
     // Render the Hero component with the mock data
     cy.viewport('ipad-2');
-    cy.mount(<Hero />);
-
+    cy.mount(
+      <BrowserRouter>
+        <Hero />
+      </BrowserRouter>
+    );
     cy.contains('Welcome To CityScape').should('be.visible');
 
     cy.contains('Read More').should('be.visible');
@@ -31,8 +37,11 @@ describe('Hero component', () => {
   it('should render the Hero component on desktop screen size', () => {
     // Render the Hero component with the mock data
     cy.viewport(1920, 1080);
-    cy.mount(<Hero />);
-
+    cy.mount(
+      <BrowserRouter>
+        <Hero />
+      </BrowserRouter>
+    );
     cy.contains('Welcome To CityScape').should('be.visible');
 
     cy.contains('Read More').should('be.visible');
