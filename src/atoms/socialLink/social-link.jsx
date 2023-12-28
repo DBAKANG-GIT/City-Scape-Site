@@ -9,7 +9,7 @@ const SocialLink = ({ href, icon }) => (
 
 SocialLink.propTypes = {
   href: PropTypes.string.isRequired,
-  icon: PropTypes.element.isRequired,
+  icon: PropTypes.object.isRequired,
 };
 
 export default SocialLink;
