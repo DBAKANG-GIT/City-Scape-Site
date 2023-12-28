@@ -16,6 +16,7 @@ const TeamMember = ({ imageSrc, name, position, experience, linkedinUrl }) => {
         <img
           src={imageSrc}
           alt={name}
+          loading="lazy"
           className="rounded-[50%] w-full h-full border-secondary hover:border-coral hover:border-4 border-2 mb-5"
         />
       </a>
