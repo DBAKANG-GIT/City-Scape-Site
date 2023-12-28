@@ -10,7 +10,7 @@ import {
 const IconsSection = () => {
   return (
     <section id="about" className="p-7 bg-white text-grey">
-      <div className="flex text-center justify-center h-full">
+      <div className="flex flex-col lg:flex-row text-center justify-center h-full">
         <div className="p-5">
           <FontAwesomeIcon
             icon={faRunning}
