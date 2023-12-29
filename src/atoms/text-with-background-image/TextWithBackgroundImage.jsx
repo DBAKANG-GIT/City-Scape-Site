@@ -32,7 +32,7 @@ const TextWithBackgroundImage = ({
           className="sm:text-2xl lg:text-3xl
           font-normal leading-[3rem] text-white"
         >
-          At Cityscape Health and Wellbeing, we are dedicated to enhancing the
+          At CityScape Health and Wellbeing, we are dedicated to enhancing the
           vitality and resilience of individuals and corporations alike. Our
           bespoke wellness programs seamlessly blend on-site personal training
           with invigorating corporate classes such as yoga and pilates,

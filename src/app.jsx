@@ -12,7 +12,7 @@ function App() {
         <Route
           path="/"
           element={
-            <Layout>
+            <Layout title="CityScape | Home">
               <LandingPage />
             </Layout>
           }
@@ -21,7 +21,7 @@ function App() {
         <Route
           path="/about"
           element={
-            <Layout>
+            <Layout title="CityScape | About">
               <AboutPage />
             </Layout>
           }
@@ -30,7 +30,7 @@ function App() {
         <Route
           path="/services"
           element={
-            <Layout>
+            <Layout title="CityScape | Services">
               <ServicesPage />
             </Layout>
           }
@@ -39,7 +39,7 @@ function App() {
         <Route
           path="/contact"
           element={
-            <Layout>
+            <Layout title="CityScape | Contact">
               <ContactPage />
             </Layout>
           }
