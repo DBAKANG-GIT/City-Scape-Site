@@ -31,6 +31,7 @@ const TeamMember = ({ imageSrc, name, position, experience, linkedinUrl }) => {
       <p>{position}</p>
       <Lightbox
         plugins={[Captions]}
+        captions={{ descriptionMaxLines: 5 }}
         open={open}
         close={() => setOpen(false)}
         slides={[{ src: imageSrc, title: name, description: experience }]}
