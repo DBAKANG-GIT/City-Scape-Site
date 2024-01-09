@@ -25,9 +25,9 @@ describe('ContactSection', () => {
         // Define the expected contact items
         const expectedContactItems = [
           {
-            href: 'mailto:test@gmail.com',
+            href: 'mailto:enquiry@cityscapeltd.co.uk',
             title: 'Email',
-            content: 'test@gmail',
+            content: 'enquiry@cityscapeltd.co.uk',
           },
           {
             href: 'https://maps.app.goo.gl/Du6stTteNNENZQ6c6',
