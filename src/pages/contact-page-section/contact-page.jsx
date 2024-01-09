@@ -7,10 +7,10 @@ import TextHolder from 'src/molecules/text-with-bottom-line/text-holder';
 
 const contactItems = [
   {
-    href: 'mailto:test@gmail.com',
+    href: 'mailto:enquiry@cityscapeltd.co.uk',
     icon: <FontAwesomeIcon icon={faEnvelope} size="2x" />,
     title: 'Email',
-    content: 'test@gmail.com',
+    content: 'enquiry@cityscapeltd.co.uk',
   },
   {
     href: 'https://maps.app.goo.gl/Du6stTteNNENZQ6c6',
